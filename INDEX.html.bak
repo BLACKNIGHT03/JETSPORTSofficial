@@ -1,0 +1,284 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JetsSports Store </title>
+	<link rel="stylesheet" href="style.css">
+	 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap" rel="stylesheet">
+	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="header">                                      <!----------header---------->
+	<div class="left">
+		<img src="images/logo1.png" width="150px">
+	</div>
+
+<div class="mid">
+	<ul class="navbar"> 
+		<li><a href="INDEX.html">Home</a></li>
+		<li><a href="">Products</a></li>
+		<li><a href="">About</a></li>
+		<li><a href="">Contacts</a></li>
+		<li><a href="account.html">Account</a></li>
+
+		</ul>
+		</div>
+		
+	<div class="right">
+	<div class="search"><img src="images/search.png"/></div>
+    <div class="rounded-buttons"><img src="images/cart.png"/ width="60px">
+	</div>
+	</div>
+	</div>
+	<div class="ad">
+		<div class="col-2">
+
+			<h1>
+				BACK AT SPORT
+		</h1>
+				<p>IT'S TIME TO HIT BACK ON TRACKS.WITH TOP PERFORMANCE WEAR</p><br>
+			<div class="container">	
+			<button>
+				<div class="btn">Explore Now &#8594 </div></button>
+			</div>
+		</div>
+		<div class="col-2">
+			<img src="images/image2.jpg" width="330px">
+		</div>
+	</div>
+
+
+
+<!----- featured categories------>
+<div class="categories">
+	 <div class="small-container">
+	 	 	<div class="row">
+	
+		<div class="col-3">
+			<img src="images/category-5.jpg" height="350px" width="350px">
+		</div>
+			<div class="col-3">
+				<img src="images/category-4.jpg" height="350px" width="350px">
+			</div>
+				<div class="col-3">
+					<img src="images/category-3.jpg" height="350px" width="350px">
+				</div>
+	 </div>
+	 
+	</div>
+</div>
+<!-----featured products------>
+<div class="small-container">
+	 	
+	<h2 class="title">Featured Products</h2>
+	 	<div class="row">
+		<div class="col-4">
+			<img src="images2/sando.jpg" height="240px">
+			<h4> ONVERS MEN'S SOLID TRAINING SANDO</h4>
+			<div class="Rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+
+			<p>INR 500.00</p>
+
+		</div>
+		<div class="col-4">
+			<img src="images/product-2.jpg" height="240px">
+			<h4>HRX MEN'S BLACK SPORTS SHOES</h4>
+			<div class="Rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+			</div>
+
+			<p>INR 500.00</p>
+
+		</div>
+		<div class="col-4">
+			<img src="images2/Track pants.jpg" height="240px">
+			<h4>ATHELEIUSRE MEN'S TRACK PANTS</h4>
+			<div class="Rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half-o"></i>
+			</div>
+
+			<p>INR 700.00</p>
+
+		</div>
+		<div class="col-4">
+			<a href="productdetails.html"><img src="images/gallery-1.jpg" height="240px"></a>
+			<h4>Red Printed T-Shirt by HRX</h4>
+			<div class="Rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half-o"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+
+			<p>INR 500.00</p>
+
+		</div>
+		<div class="col-4">
+			<img src="images2/sports watch.jpg" height="240px">
+			<h4> AMAZEFIT SPORTS WATCH 3</h4>
+			<div class="Rating">
+			 <i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half-o"></i>
+				</div>
+				<p> INR 3000.00</p>
+			</div>
+		</div>
+		<h2 class="title">Latest Products</h2>
+		<div class="row">
+		<div class="col-4">
+			<img src="images2/sando.jpg" height="240px">
+			<h4> ONVERS MEN'S SOLID TRAINING SANDO</h4>
+			<div class="Rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+
+			<p>INR 500.00</p>
+
+		</div>
+		<div class="col-4">
+			<img src="images/product-9.jpg">
+			<h4>FASTTRACK MEN'S BLACK WATCH</h4>
+			<div class="Rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+			</div>
+
+			<p>INR 5000.00</p>
+
+		</div>
+		<div class="col-4">
+			<img src="images/product-10.jpg">
+			<h4>PUMA MEN'S SPORTS SHOES</h4>
+			<div class="Rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half-o"></i>
+			</div>
+
+			<p>INR 2700.00</p>
+
+		</div>
+		<div class="col-4">
+			<img src="images/product-11.jpg">
+			<h4>NIKE MEN'S GYM TRAINING SHOES</h4>
+			<div class="Rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half-o"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+
+			<p>INR 1500.00</p>
+
+		</div>
+		<div class="col-4">
+			<img src="images/product-12.jpg">
+			<h4>ADIDAS MEN'S GYM TRAINING PANTS</h4>
+			<div class="Rating">
+			 <i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half-o"></i>
+				</div>
+				<p> INR 2500.00</p>
+			</div>
+		</div>
+	</div>
+	<!-------offer----->
+	<div class="offer">
+		<div class="off">
+			<div class="row">
+				 <div class="col-2">
+				 	<img src="images/exclusive.png" class="offer-img">
+				 </div>
+				 <div class="col-2">
+				 	<p>Exclusively Available on Jetsports store</p>
+				 	<h1>Mi Smart Band 4</h1>
+				 	<small>The Mi Samrt Band 4 features a 39.9% larger
+				 	 (than Mi Band 3) AMOLED color full-touch Display
+				 		with adjustable brightness, so everything is clear as can be.	
+				 	</small>
+				 </div>
+			</div>
+		</div>
+
+	</div>
+
+
+<!---------footer------------>
+<footer>
+<div class="fot">
+<img src="images/logo1.png" width="150px">
+</div>
+<div class="info">
+<p>
+<span>Quick Links</span></br>
+Support center<br>
+Terms & Conditions<br>
+FAQs<br>
+</p>
+</div>
+<div class="inf">
+<p>
+<span>About Us</span><br>
+Contact No:8080752191/797203934<br>
+Email:jetsport@gmail.com<br>
+B-44,Panjim,Goa-403001
+</p>
+</div>
+<div class="fol">
+<span>Follow On</span>
+<div class="id">
+<img src="images/facebook.png" width="24px">
+</div>
+<div class="id">
+<img src="images/twitter1.jpg" width="18px" ">
+</div>
+<div class="id">
+<img src="images/insta.png" width="24px" >
+</div>
+</div>
+</footer>
+
+
+
+
+
+
+
+
+</body>
+</html>

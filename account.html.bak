@@ -1,0 +1,184 @@
+    
+    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JetsSports Store </title>
+	<link rel="stylesheet" href="style.css">
+	 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap" rel="stylesheet">
+	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="header"> 
+	<div class="left">
+		<img src="images/logo1.png" width="150px">
+	</div>
+
+<div class="mid">
+	<ul class="navbar"> 
+		<li><a href="INDEX.html">Home</a></li>
+		<li><a href="">Products</a></li>
+		<li><a href="">About</a></li>
+		<li><a href="">Contacts</a></li>
+		<li><a href="account.html">Account</a></li>
+
+		</ul>
+		</div>
+	<div class="right">
+	<div class="search"><img src="images/search.png"/></div>
+    <div class="rounded-buttons"><img src="images/cart.png"/ width="60px">
+	</div>
+	</div>
+	</div>
+
+ 
+<!-------------account page------->
+
+<div class="account-page">
+	<div class="container">
+		<div class="row">
+			<div class="col-2">
+				<img src="images/image2.jpg" width="100%">
+			</div>
+
+
+			<div class="col-2">
+				 <div class="form-container">
+				 	<div class="form-btn">
+				 		<span onclick="login()">Login</span>
+				 		 <span onclick="register()">Register</span>
+				 		<hr id="Indicator">
+				 	</div>
+
+
+				 	<form id="LoginForm" action="signin.php" method="post">
+ 
+     <a>Email <input type="email" class="input-box" placeholder=" Your Email" name="email" required></a><br>
+	 <a>Password <input type="password" class="input-box" placeholder=" Your Password" name="password" onfocus=this.value=''></a><br><br>
+     <p><input type="checkbox" required> I agree to the <a href=#>terms</a> and <a href=#>conditions</a></p><br>
+	 <button type="submit" class="btn" name="signin">Sign In</button><br>
+	 <img src="images/logo1.png" width="180px">
+	 </form>
+				
+
+
+	 	 
+				 	<form id="RegForm" action="signup.php" method="post">
+     <a> Full Name <input type="text" class="input-box" placeholder="Your Name" name="name"></a><br>
+	 <a> Contact <input type="number" class="input-box" placeholder="Your Contact Number" name="contact"></a><br>
+	 <a>Email<input type="email" class="input-box" placeholder=" Ex:XYZ@gmail.com" name="email" required></a><br>
+      <a>Password<input type="password" class="input-box" placeholder=" Your Password" name="password" onfocus=this.value=''></a><br>
+	 <button type="submit" class="btn" name="signup">Sign Up</button><br>
+				 	
+					</form>
+
+
+
+				 </div>
+			</div>
+			
+		</div>
+		
+	</div>
+	
+</div>
+
+
+
+
+
+		 
+<!---------footer------------>
+<footer>
+<div class="fot">
+<img src="images/logo1.png" width="150px">
+</div>
+<div class="info">
+<p>
+<span>Quick Links</span></br>
+Support center<br>
+Terms & Conditions<br>
+FAQs<br>
+</p>
+</div>
+<div class="inf">
+<p>
+<span>About Us</span><br>
+Contact No:8080752191/797203934<br>
+Email:jetsport@gmail.com<br>
+B-44,Panjim,Goa-403001
+</p>
+</div>
+<div class="fol">
+<span>Follow On</span>
+<div class="id">
+<img src="images/facebook.png" width="24px">
+</div>
+<div class="id">
+<img src="images/twitter1.jpg" width="18px" ">
+</div>
+<div class="id">
+<img src="images/insta.png" width="24px" >
+</div>
+</div>
+</footer>
+<!---------------js for toggle menu-------->
+<script>
+	var MenuItems = document.getElementById("MenuItems");
+
+	MenuItems.style.maxHeight = "0px";
+
+	function menutoggle(){
+		if (MenuItems.style.maxHeight == "0px") 
+		{
+			MenuItems.style.maxHeight == "200px";
+		}
+		else
+		{
+			MenuItems.style.maxHeight == "200px";
+		}
+
+		
+	}
+</script>
+
+<!---------------js for toggle form-------->
+
+
+<script>
+	
+	var LoginForm = document.getElementById("LoginForm");
+	var RegForm = document.getElementById("RegForm");
+	var Indicator = document.getElementById("Indicator");
+
+	function register(){
+		RegForm.style.transform = "translateX(0px)";
+		LoginForm.style.transform = "translateX(0px)";
+		Indicator.style.transform = "translateX(100px)";
+	}
+
+
+	
+
+
+        function login(){
+		RegForm.style.transform = "translateX(300px)";
+		LoginForm.style.transform = "translateX(300px)";
+        Indicator.style.transform = "translateX(0px)";
+	}
+
+
+	
+
+
+
+</script>
+
+ 
+
+</body>
+</html>
